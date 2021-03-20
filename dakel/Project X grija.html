@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> DachshundBG </title>
+    <link rel="stylesheet" href="PG.css" />
+    <link rel="shortcut icon" type="image/png" href="d.png"/>
+</head>
+
+<body>
+    <p1 id="demo"></p1>
+    <script>
+        var d = new Date();
+        d.setSeconds(30);
+        document.getElementById("demo").innerHTML = d;
+        </script>
+    <nav>
+        <ul class="nav">
+            <li><a href="Project X.html">НАЧАЛО</a></li>
+            <li><a href="Project X Galeriq.html">ГАЛЕРИЯ</a>
+            </li>
+            <li><a href="Project X vidove.html">ВИДОВЕ ДАКЕЛИ</a>
+                <ul>
+                    <li><a href="Project X istoriq.html">ИСТОРИЯ</a></li>
+                    <li><a href="Project X.zaeshki.html">ЗАЕШКИ ДАКЕЛ</a>
+                        <!-- <ul>
+                            <li><a href="#">Ray</a></li>
+                            <li><a href="#">Veronica</a></li>
+                            <li><a href="#">Bushy</a></li>
+                            <li><a href="#">Havoc</a></li>
+                        </ul> -->
+                        <!-- Допълнително меню -->
+                    </li>
+                    <li><a href="Project X dulgo.html">Гладкокосан дакел</a></li>
+                    <li><a href="Project X grija.html">Грижа за кучето</a></li>
+                </ul>
+            </li>
+            <li><a href="Project X.123.html">ДАРЕТЕ ЗА ПРИЮТ</a></li>
+            <li><a href="#">ОСИНОВИ СИ КУЧЕ</a>
+                <ul>
+                    <li><a href="https://www.four-paws.bg/nashata-rabota-i-kampanii/napravleniya/osinovi-ot-chetiri-lapi">ЧЕТИРИ ЛАПИ България </a></li>
+                    <li><a href="http://ecoravnovesie.com/%D0%BE%D1%81%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8-%D0%BA%D1%83%D1%87%D0%B5/">Екоравновесиe осинови-куче</a></li>
+                    <li><a href="https://animalhope-varna.org/category/dogs/">Animal Hope Varna</a></li>
+                    <li><a href="https://www.pets-adoption.com/bg_%D0%9E%D0%B1%D1%8F%D0%B2%D0%B8.html"> Pets Adoption</a></li>
+                </ul>
+            </li>
+            <li><a href="Project X.kontakti.html">КОНТАКТИ</a></li>
+        </ul>
+    </nav>
+    <br>
+    <center>
+        <div class="dakel0">
+            <h1>DachshundBG</h1>
+            <img src="d.png" style="width:150px;height:150px;">
+        </div>
+        <img src="d18.jpg" style="width:1000px;height:700px;">
+        <br>
+        <div class="dakel">
+            <HR WIDTH=100% SIZE=1 COLOR="0,0,0"><br>
+            <img src="d.png" style="width:110px;height:110px;">
+            <h2>Грижа за кучето</h2><br>
+            <p>Дакелчетата са доста здрави. Основният риск е свързан с особеностите на структурата на тяхното тяло.
+                Животното има дълъг гръб и в същото време къси крака - това застрашава да премества междузвездните
+                дискове. Ето защо е важно да се следи теглото на кучето (не трябва да надвишава стандарта) и неговата
+                дейност. По-специално не я окуражавайте да скача високо или нагоре и надолу по канапето. Спазвайте
+                стриктно диетата и дозировката на храната. Диетата на почти ¾ от парчето трябва да се състои от месо,
+                което е толкова любимо на всички ловуващи кучета.
+
+                Видовете такси, изброени по - горе, сасобствениците на вълна, с различни характеристики. Всеки от тях
+                обаче се нуждае от периодична грижа за него. Ползата от това специално усилие не се изисква.
+                Гладкокосите дакели трябва да се почистват ежедневно в продължение на няколко минути с грубо ръкавице и
+                след това с мека кърпа. Дългокосите и къси коси са изпечени със специална твърда четка и гребен.</p><br>
+
+            <img src="d2.png" style="width:300px;height:250px;">
+            <img src="d6.jpg" style="width:300px;height:250px;">
+            <img src="d3.png" style="width:300px;height:250px;">
+            <br>
+            <h2> Физическа активност</h2>
+            <p>Всички видове дакел, с снимки и именакоито вече се срещнахте по-горе, се нуждаят от физическо
+                натоварване. Ежедневните разходки са отличен предотвратяване на наддаване на тегло, което се случва с
+                тази порода кучета, които се съдържат като домашни любимци (не ловни), доста често. Специалистите
+                препоръчват разходки с такси кратко, но често, което им дава много прегазен. Заслужава да предупреди
+                тези, които имат своята област страна или къща. Dachshunds заради естествената си ловни големи фенове
+                poryt земята.</p><br>
+                <button onclick="myFunction()">ХАРЕСАЙ СТАТИЯТА</button>
+
+            <p id="demo"></p>
+
+            <script>
+                function myFunction() {
+                    var txt;
+                    if (confirm("Натиснете бутона!")) {
+                        txt = "Вие харесахте статията благодарим ви!";
+                    } else {
+                        txt = "Вие нехаресахте статията благодарим ви!";
+                    }
+                    document.getElementById("demo").innerHTML = txt;
+                }
+            </script>
+            <br>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">НАГОРЕ</button>
+            <HR WIDTH=100% SIZE=1 COLOR="0,0,0"><br>
+        </div>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        </div>
+        </div>
+        <footer>
+            <div class="dakel3">
+                <A HREF="https://www.facebook.com/groups/242076969306497"><IMG WIDTH="60" HEIGHT="60" SRC="44.jpg"
+                        BORDER="0" ALT="FB"></A><br>
+                <img src="d.png" style="width:110px;height:110px;">
+                <A HREF="http://www.google.bg"><IMG WIDTH="80" HEIGHT="80" SRC="google.png" BORDER="0" ALT="google"></A>
+            </div>
+            <div class="dakel4">
+                <P style="color: c0c0c0; font-size:15px" text-align="left">КОНТАКТИ</p>
+                <p style="color: c0c0c0; font-size:15px" ALIGN="left">0878 787 989</p>
+                <p style="color: c0c0c0; font-size:15px" ALIGN="left">DachshundBG@gmail.com</p>
+                <br>
+            </div>
+
+            &copy 2021 DachshundBG . All Rights Reserved.
+    </center>
+    </footer>
+
+</body>
+
+</html>
