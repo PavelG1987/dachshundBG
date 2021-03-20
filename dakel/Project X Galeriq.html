@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> DachshundBG </title>
+    <link rel="stylesheet" href="PG.css" />
+    <link rel="shortcut icon" type="image/png" href="d.png"/>
+</head>
+
+<body>
+    <p1 id="demo"></p1>
+    <script>
+        var d = new Date();
+        d.setSeconds(30);
+        document.getElementById("demo").innerHTML = d;
+    </script>
+    <nav>
+        <ul class="nav">
+            <li><a href="index.HTML.html">НАЧАЛО</a></li>
+            <li><a href="Project X Galeriq.html">ГАЛЕРИЯ</a>
+            </li>
+            <li><a href="Project X vidove.html">ВИДОВЕ ДАКЕЛИ</a>
+                <ul>
+                    <li><a href="Project X istoriq.html">ИСТОРИЯ</a></li>
+                    <li><a href="Project X.zaeshki.html">ЗАЕШКИ ДАКЕЛ</a>
+                        <!-- <ul>
+                            <li><a href="#">Ray</a></li>
+                            <li><a href="#">Veronica</a></li>
+                            <li><a href="#">Bushy</a></li>
+                            <li><a href="#">Havoc</a></li>
+                        </ul> -->
+                        <!-- Допълнително меню -->
+                    </li>
+                    <li><a href="Project X dulgo.html">Гладкокосан дакел</a></li>
+                    <li><a href="Project X grija.html">Грижа за кучето</a></li>
+                </ul>
+            </li>
+            <li><a href="Project X.123.html">ДАРЕТЕ ЗА ПРИЮТ</a></li>
+            <li><a href="#">ОСИНОВИ СИ КУЧЕ</a>
+                <ul>
+                    <li><a
+                            href="https://www.four-paws.bg/nashata-rabota-i-kampanii/napravleniya/osinovi-ot-chetiri-lapi">ЧЕТИРИ
+                            ЛАПИ България </a></li>
+                    <li><a
+                            href="http://ecoravnovesie.com/%D0%BE%D1%81%D0%B8%D0%BD%D0%BE%D0%B2%D0%B8-%D0%BA%D1%83%D1%87%D0%B5/">Екоравновесиe
+                            осинови-куче</a></li>
+                    <li><a href="https://animalhope-varna.org/category/dogs/">Animal Hope Varna</a></li>
+                    <li><a href="https://www.pets-adoption.com/bg_%D0%9E%D0%B1%D1%8F%D0%B2%D0%B8.html"> Pets
+                            Adoption</a></li>
+                </ul>
+            </li>
+            <li><a href="Project X.kontakti.html">КОНТАКТИ</a></li>
+        </ul>
+    </nav>
+    <br>
+    <center>
+        <div class="dakel0">
+            <h1>DachshundBG</h1>
+            <img src="d.png" style="width:150px;height:150px;">
+        </div>
+        <img src="d.png" style="width:800px;height:800px;">
+        <br>
+        <div class="dakel">
+            <HR WIDTH=100% SIZE=1 COLOR="0,0,0"><br>
+            <img src="d.png" style="width:110px;height:110px;">
+            <h2>Галерия</h2><br>
+            <img id="myImage" src="n5.jpg" style="width:500px"><br>
+            <p>
+                <button type="button" onclick="javascript:changeImg(-1)">ПРЕДИШНА</button>
+                <button type="button" onclick="javascript:changeImg(1)">СЛЕДВАЩА</button>
+            </p>
+            <script>
+                var current = 0;
+                var array = ["n3.jpg", "d1.jpg", "n4.jpg", "n2.jpg", "a1.jpg", "a2.jpg", "a3.jpg", "a4.jpg", "d15.jpg", "d16.jpg", "d17.jpg", "d18.jpg", "d9.jpg", "d7.jpg"];
+
+                function changeImg(move) {
+                    current = current + move;
+                    if (current < 0) {
+                        current = array.length - 1;
+                    }
+                    else {
+                        if (current >= array.length) {
+                            current = 0;
+                        }
+                    }
+                    console.log(current);
+                    document.getElementById("myImage").src = array[current];
+                }
+            </script><br>
+            <p>Качете снимка на Вашия дакел</p>
+            <form action="/action_page.php">
+                <input type="file" id="myFile" name="filename">
+                <input type="submit">
+            </form>
+            <h2>Интересни факти за дакела</h2><br>
+            <ul>• Дакелите се класифицират към групата на хрътките, но се водят все повече дискусии дали това е коректно.
+                Много дакели, особено тези с твърд косъм имат поведение и външен вид, което наподобява повече на
+                териерите.</ul>
+
+                <ul>•Най - силният аргумент за връзката им с хрътките е тяхното невероятно обоняние. Те използват обонянието
+                си за да проследяват животни и по това те си приличат и с пойнтерите.</ul>
+
+                <ul>•Колко копае дакелаОт друга страна те са много упорити кучета и обичат да копаят дупки, като това им
+                поведение ги свързва с териерите. Дакелите са единствената сертифицирана порода кучета, която ловува
+                едновременно под и над земята.</ul>
+
+                <ul>•Има описан случай на дакел, който е изкопал 10 метрова дупка, за да стигне до жертвата си!</ul>
+
+                <ul>• Стандартните и миниатюрните дакели са признати почти навсякъде, но заешките дакели не се признават от
+                клубовете в САЩ и Обединеното кралство. Те обаче са признати от другите членове на FCI, организация
+                включваща 83 държави от целия свят.</ul>
+                <ul>• Все по - често хората си взeмат за домашен любимец кучета от тази порода, които имат среден размер и
+                не спадат нито към миниатюрните, нито към стандартните дакели. Този тип дакели се наричат "tweenies" и
+                не попадат в официалната класификация.</ul>
+
+                <ul>• Установено е, че дакелите с остра козина са най - често срещани в САЩ.</ul>
+
+                <ul>•Според данни от 2011 година дакел от Ню Йорк е успял да доживее цели 23 години.</ul>
+            <br>
+            <div class="dakel7">
+                <button onclick="myFunction()">ХАРЕСАЙ СТАТИЯТА</button>
+
+                <p id="demo"></p>
+
+                <script>
+                    function myFunction() {
+                        var txt;
+                        if (confirm("Натиснете бутона!")) {
+                            txt = "Вие харесахте статията благодарим ви!";
+                        } else {
+                            txt = "Вие нехаресахте статията благодарим ви!";
+                        }
+                        document.getElementById("demo").innerHTML = txt;
+                    }
+                </script>
+                <br>
+            </div>
+            <button onclick="topFunction()" id="myBtn" title="Go to top">НАГОРЕ</button>
+        <script>
+            var mybutton = document.getElementById("myBtn");
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <HR WIDTH=100% SIZE=1 COLOR="0,0,0"><br>
+            </div>
+        </div>
+        <footer>
+            <div class="dakel3">
+                <A HREF="https://www.facebook.com/groups/242076969306497"><IMG WIDTH="60" HEIGHT="60" SRC="44.jpg"
+                        BORDER="0" ALT="FB"></A><br>
+                <img src="d.png" style="width:110px;height:110px;">
+                <A HREF="http://www.google.bg"><IMG WIDTH="80" HEIGHT="80" SRC="google.png" BORDER="0" ALT="google"></A>
+            </div>
+            <div class="dakel4">
+                <P style="color: c0c0c0; font-size:15px" text-align="left">КОНТАКТИ</p>
+                <p style="color: c0c0c0; font-size:15px" ALIGN="left">0878 787 989</p>
+                <p style="color: c0c0c0; font-size:15px" ALIGN="left">DachshundBG@gmail.com</p>
+                <br>
+            </div>
+
+            &copy 2021 DachshundBG . All Rights Reserved.
+    </center>
+    </footer>
+
+</body>
+
+</html>
